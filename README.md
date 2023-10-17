@@ -6,6 +6,8 @@ this is an example project to showcase connecting these various components
 
 - delete /pgdata to create a new database, but saved info is lost
 
+used this site for guidance: https://dev.to/chukwutosin_/step-by-step-guide-setting-up-a-nestjs-application-with-docker-and-postgresql-5hei
+
 ## Nest generated content
 
 <p align="center">
