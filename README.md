@@ -1,3 +1,13 @@
+# Nest + TypeORM + PostgreSQL + Docker
+
+this is an example project to showcase connecting these various components
+
+## Notes of things I have learned so far
+
+- delete /pgdata to create a new database, but saved info is lost
+
+## Nest generated content
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
