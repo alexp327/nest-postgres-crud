@@ -1,12 +1,10 @@
 # Nest + TypeORM + PostgreSQL + Docker
 
-This is an example project to showcase connecting these various components
+This is an example project to showcase connecting NestJS, TypeORM, PostgreSQL, and Docker. These are all helpful tools that I would like to add to my skillset, and figured getting started with a tutorial is a good way to start. I didn't follow it exactly though - Dockerizing the entire application and database added an extra challenge that deepend my understanding of these various tools.
 
-I primarily followed [this tutorial](https://www.youtube.com/watch?v=uy05FqqJ4TM) by [Jon Peppinck](https://www.youtube.com/@JonPeppinck/videos)
+- I primarily followed [this Nest tutorial](https://www.youtube.com/watch?v=uy05FqqJ4TM) by [Jon Peppinck](https://www.youtube.com/@JonPeppinck/videos).
 
-I deviated from this tutorial by Dockerizing the entire project.
-
-I also followed [this article](https://dev.to/chukwutosin_/step-by-step-guide-setting-up-a-nestjs-application-with-docker-and-postgresql-5hei) for help with Dockerizing the application
+- I also followed [this article](https://dev.to/chukwutosin_/step-by-step-guide-setting-up-a-nestjs-application-with-docker-and-postgresql-5hei) for help with Dockerizing the application.
 
 ## Things I learned from this project/tutorial
 
