@@ -1,14 +1,24 @@
 # Nest + TypeORM + PostgreSQL + Docker
 
-this is an example project to showcase connecting these various components
+This is an example project to showcase connecting these various components
 
 I primarily followed [this tutorial](https://www.youtube.com/watch?v=uy05FqqJ4TM) by [Jon Peppinck](https://www.youtube.com/@JonPeppinck/videos)
 
-## Notes of things I have learned so far
+I deviated from this tutorial by Dockerizing the entire project.
 
-- delete /pgdata to create a new database, but saved info is lost
+I also followed [this article](https://dev.to/chukwutosin_/step-by-step-guide-setting-up-a-nestjs-application-with-docker-and-postgresql-5hei) for help with Dockerizing the application
 
-used this site for guidance: https://dev.to/chukwutosin_/step-by-step-guide-setting-up-a-nestjs-application-with-docker-and-postgresql-5hei
+## Things I learned from this project/tutorial
+
+### Docker, my new favorite tool
+
+I primarily develop on WSL (Windows Subsystem for Linux), but was running into issues trying to connect a postgres database running on WSL to pgAdmin running on Windows. This is when I decided to explore incorporating Docker, since I have recently become familiar with the benefits of containerization. After connecting my Nest app to my db, I had no problem connecting a 3rd container with pgAdmin to the db, and exposing the necessary ports to my Windows machine.
+
+### Other key takeaways
+
+- NestJS is a very intuitive framework for me due to my experience with Angular, and I plan to incorporate it into my go-to tech stack
+- TypeORM makes dealing with databases from the backend extremely straighforward. I like how it continues Nest's utilization of decorators, and makes it feel like a key part of the whole framework.
+- PostgreSQL is a powerful database tool, that I still have a lot to learn on. I realized I am proficient enough with databases for baseline knowledge, but need to learn a lot more before I can consider myself fully comfortable with Postgres/databases in general.
 
 ## Nest generated content
 
