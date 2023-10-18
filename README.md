@@ -2,6 +2,8 @@
 
 this is an example project to showcase connecting these various components
 
+I primarily followed [this tutorial](https://www.youtube.com/watch?v=uy05FqqJ4TM) by [Jon Peppinck](https://www.youtube.com/@JonPeppinck/videos)
+
 ## Notes of things I have learned so far
 
 - delete /pgdata to create a new database, but saved info is lost
